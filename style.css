@@ -1,0 +1,65 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url(https://olivercox.files.wordpress.com/2016/11/pattern.png?w=624);
+}
+
+main {
+    width: 1050px;
+    text-align: center;
+}
+
+.riga {
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.prodotto {
+    display: inline-block;
+    position: relative;
+}
+
+.xc{
+    position: absolute;
+    width: 45px;
+    height: 20px;
+    top: 0;
+    right: 0;
+}
+
+.venti {
+    background-color: yellow;
+}
+
+.venticinque{
+    background-color: green;
+}
+
+.cinquanta {
+    background-color: red;
+}
+
+img {
+    z-index: 1;
+}
+
+.cuore {
+    font-size: 30px;
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    color: red;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+    visibility: hidden;
+}
+
+.prodotto:hover .cuore {
+    visibility: visible;
+}
